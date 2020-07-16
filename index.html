@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Cuda</title>
+   <link
+     rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+     crossorigin="anonymous"
+   />
+   <link rel="stylesheet" href="style.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/	jquery.min.js"></script>
+   <script src="main.js" defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+</head>
+<body>
+   <div class="container text-center" style="max-width: 800px;">
+      <div class="row">
+         <div class="col-4">
+            <button data-tab="0" type="button" class="btn btn-primary">Камень</button>
+         </div>
+         <div class="col-4">
+            <button data-tab="1" type="button" class="btn btn-primary">Ножницы</button>
+         </div>
+         <div class="col-4">
+            <button data-tab="2" type="button" class="btn btn-primary">Бумага</button>
+         </div>
+         <div class="w-100"></div>
+         <div class="col-12" style="margin-top: 20px;">
+            <div id="text">0:0</div>
+         </div> 
+      </div>
+      <div class="row text-center justify-content-around" id="block">
+         <div class="blc" class="col-sm-4">
+            <div class="block-1">
+               <p>Вы</p>
+               <hr>
+               <div id="imageInner">
+                  <img id="img" src="" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="blc" class="col-sm-4">
+            <div class="block-1">
+               <p>Бот</p>
+               <hr>
+               <div id="imageInnerBot">
+                  <img id="imgBot" src="" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.btn {
+   margin-top: 10px;
+   width: 90px;
+}
+#text {
+   font-size: 20px;
+   font-weight: bold;
+}
+.blc {
+   border: 1px solid black;
+   width: 300px;
+   height: 260px;
+   line-height: 50px;
+   font-size: 30px;
+   margin-top: 10px;
+}
+hr {
+   color: black;
+   background-color: black;
+}
+#block {
+
+}
+img {
+   width: 170px;
+}
