@@ -14,28 +14,28 @@ function innerImg(e) {
    console.log(imgBot.src)
    if (e.target.dataset.tab == 0) {
       img.src = 'img/rock.png'
-      if (imgBot.src == 'https://denys1953.github.io/KNB/img/scissors.png') {
+      if (imgBot.src == 'https://quizzical-liskov-f708e2.netlify.app/img/scissors.png') {
          playerScore++
          score.innerHTML = `${playerScore}:${botScore}`
-      } else if(imgBot.src == 'https://denys1953.github.io/KNB/img/paper.png') {
+      } else if(imgBot.src == 'https://quizzical-liskov-f708e2.netlify.app/img/paper.png') {
          botScore++
          score.innerHTML = `${playerScore}:${botScore}`
       }
    } else if (e.target.dataset.tab == 1) {
       img.src = 'img/scissors.png'
-      if (imgBot.src == 'https://denys1953.github.io/KNB/img/paper.png') {
+      if (imgBot.src == 'https://quizzical-liskov-f708e2.netlify.app/img/paper.png') {
          playerScore++
          score.innerHTML = `${playerScore}:${botScore}`
-      } else if(imgBot.src == 'https://denys1953.github.io/KNB/img/rock.png') {
+      } else if(imgBot.src == 'https://quizzical-liskov-f708e2.netlify.app/img/rock.png') {
          botScore++
          score.innerHTML = `${playerScore}:${botScore}`
       }
    } else {
       img.src = 'img/paper.png'
-      if (imgBot.src == 'https://denys1953.github.io/KNB/img/rock.png') {
+      if (imgBot.src == 'https://quizzical-liskov-f708e2.netlify.app/img/rock.png') {
          playerScore++
          score.innerHTML = `${playerScore}:${botScore}`
-      } else if(imgBot.src == 'https://denys1953.github.io/KNB/img/scissors.png') {
+      } else if(imgBot.src == 'https://quizzical-liskov-f708e2.netlify.app/img/scissors.png') {
          botScore++
          score.innerHTML = `${playerScore}:${botScore}`
       }
